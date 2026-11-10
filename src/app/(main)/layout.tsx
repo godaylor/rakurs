@@ -12,7 +12,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Кинорит',
-    default: 'Кинорит',
+    template: '%s | Ракурс',
+    default: 'Ракурс',
   },
 };

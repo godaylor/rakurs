@@ -193,7 +193,7 @@ export function StudioShell({ projectId, children }: { projectId: string; childr
       <a className={styles.skipLink} href="#studio-main">
         {t('Skip to content', 'Перейти к содержимому')}
       </a>
-      <aside className={styles.desktopSidebar} aria-label="Кинорит">
+      <aside className={styles.desktopSidebar} aria-label="Ракурс">
         <div className={styles.brandRow}>
           <Link className={styles.brand} href={getStudioPath(projectId, 'home')}>
             <BrandMark wordmark />
@@ -406,7 +406,7 @@ export function StudioShell({ projectId, children }: { projectId: string; childr
           </main>
         </GuestWorkspaceContext.Provider>
         <footer className={styles.footer}>
-          <span>Кинорит</span>
+          <span>Ракурс</span>
           <Link href={getStudioPath(projectId, 'legal')}>
             {t('Based on Umami · MIT', 'На основе Umami · MIT')}
           </Link>
@@ -440,7 +440,7 @@ export function StudioShell({ projectId, children }: { projectId: string; childr
 
       <AccessibleDialog
         open={mobileOpen}
-        title="Кинорит"
+        title="Ракурс"
         description={`${project.name} · ${roleLabel}`}
         side="left"
         onClose={() => setMobileOpen(false)}

@@ -22,7 +22,7 @@
   z-index: -1;
   background:
     linear-gradient(180deg, #061b2c 5%, #061b2c22 55%, #061b2c55),
-    url("/brand/kinorit/horizon.webp") bottom center / 100% auto no-repeat,
+    url("/brand/rakurs/horizon.webp") bottom center / 100% auto no-repeat,
     #061b2c;
 }
 .header {

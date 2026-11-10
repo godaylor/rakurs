@@ -11,7 +11,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Настройки | Кинорит',
-    default: 'Настройки | Кинорит',
+    template: '%s | Настройки | Ракурс',
+    default: 'Настройки | Ракурс',
   },
 };

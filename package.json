@@ -5,7 +5,7 @@
   "description": "Signal Studio product intelligence workspace, based on Umami.",
   "author": "godaylor",
   "contributors": ["Umami Software, Inc. (upstream MIT foundation)"],
-  "repository": { "type": "git", "url": "https://github.com/godaylor/signal-studio.git" },
+  "repository": { "type": "git", "url": "https://github.com/godaylor/rakurs.git" },
   "license": "MIT",
   "type": "module",
   "scripts": {

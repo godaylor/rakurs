@@ -382,7 +382,7 @@ test('guest mobile has accessible navigation and forms, explains synthetic data,
     .getByRole('button', { name: 'Открыть навигацию', exact: true })
     .first();
   await navigationTrigger.click();
-  const navigation = page.getByRole('dialog', { name: 'Кинорит', exact: true });
+  const navigation = page.getByRole('dialog', { name: 'Ракурс', exact: true });
   for (const name of ['Главная', 'Анализ', 'Дашборды', 'Аудитории', 'Опыт', 'Сейчас']) {
     await expect(navigation.getByRole('link', { name, exact: true })).toBeVisible();
   }

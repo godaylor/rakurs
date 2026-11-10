@@ -10,7 +10,7 @@ const SvgLogoWhite = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <image
-      href={`${process.env.basePath || ''}/brand/kinorit/mark.svg`}
+      href={`${process.env.basePath || ''}/brand/rakurs/mark.svg`}
       width="24"
       height="24"
     />

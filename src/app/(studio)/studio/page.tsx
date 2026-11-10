@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { StudioEntry } from '@/features/studio-shell/StudioEntry';
 
 export const metadata: Metadata = {
-  title: 'Кинорит',
+  title: 'Ракурс',
 };
 
 export default function StudioIndexPage() {

@@ -27,7 +27,7 @@ for (const mobile of [false, true]) {
     await page.setViewportSize({ width: mobile ? 390 : 1440, height: mobile ? 844 : 1000 });
     await page.emulateMedia({ reducedMotion: mobile ? 'reduce' : 'no-preference' });
     await page.goto('/login?locale=ru-RU');
-    await expect(page).toHaveTitle(/Кинорит/);
+    await expect(page).toHaveTitle(/Ракурс/);
     await expect(page.locator('html')).toHaveAttribute('data-visual-motion', mobile ? 'off' : 'on');
     const entryAudit = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'])

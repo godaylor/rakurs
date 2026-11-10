@@ -1,9 +1,8 @@
-# Кинорит · Signal Studio
+# Ракурс / Rakurs
 
-[![Signal Studio CI](https://github.com/godaylor/signal-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/godaylor/signal-studio/actions/workflows/ci.yml)
+[![Signal Studio CI](https://github.com/godaylor/rakurs/actions/workflows/ci.yml/badge.svg)](https://github.com/godaylor/rakurs/actions/workflows/ci.yml)
 
-**Behavior in motion.** Кинорит (Kinorit) is the Russian product identity of
-Signal Studio, a self-hosted product intelligence workspace for activation,
+**Behavior in motion.** Rakurs is a self-hosted product intelligence workspace for activation,
 retention and feature
 adoption. Connect a source, explore behavior, save an Insight, build a Dashboard,
 inspect an Audience and export the results.
@@ -37,7 +36,7 @@ measurements, exact revisions and limitations. Historical [M22](docs/M22_FINAL_R
 [M19](docs/M19_GUEST_WORKSPACE_REPORT.md) records remain available.
 See [free deployment](docs/FREE_DEPLOYMENT.md).
 
-![Kinorit — actual desktop and mobile analysis](docs/design/m23-motion/device-comparison.png)
+![Rakurs — actual desktop and mobile analysis](docs/design/m23-motion/device-comparison.png)
 
 [Working screens and motion recordings](docs/design/m23-motion/REVIEW.html)
 · [Actual before/after comparison](docs/design/m23-motion/compare.html)
@@ -187,7 +186,7 @@ packaging. Publishing release images requires the same CI to pass first.
 
 ## Ownership and open source
 
-Кинорит / Signal Studio is an **MIT-licensed transformation of Umami 3.3.1**, not a claim that
+Ракурс / Signal Studio is an **MIT-licensed transformation of Umami 3.3.1**, not a claim that
 all code was written from scratch. The original Umami copyright and complete MIT
 notice remain intact in [LICENSE](LICENSE).
 

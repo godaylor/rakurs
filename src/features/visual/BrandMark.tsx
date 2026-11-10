@@ -20,7 +20,7 @@ export function BrandMark({
         <circle cx="8" cy="26" r="3" fill="currentColor" />
         <circle cx="30" cy="19" r="3" fill="currentColor" />
       </svg>
-      {wordmark ? <span className={styles.wordmark}>Кинорит</span> : null}
+      {wordmark ? <span className={styles.wordmark}>Ракурс</span> : null}
     </span>
   );
 }

@@ -98,7 +98,7 @@ export function SideNav(props: any) {
         >
           {!isCollapsed && (
             <IconLabel icon={<Logo />}>
-              <Text weight="bold">Кинорит</Text>
+              <Text weight="bold">Ракурс</Text>
             </IconLabel>
           )}
           <PanelButton />
