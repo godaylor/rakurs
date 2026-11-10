@@ -36,7 +36,7 @@ measurements, exact revisions and limitations. Historical [M22](docs/M22_FINAL_R
 [M19](docs/M19_GUEST_WORKSPACE_REPORT.md) records remain available.
 See [free deployment](docs/FREE_DEPLOYMENT.md).
 
-![Rakurs — actual desktop and mobile analysis](docs/design/m23-motion/device-comparison.png)
+![Ракурс: анализ поведения на синтетических данных](docs/screenshots/rakurs-explore.jpg)
 
 [Working screens and motion recordings](docs/design/m23-motion/REVIEW.html)
 · [Actual before/after comparison](docs/design/m23-motion/compare.html)
