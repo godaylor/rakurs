@@ -17,7 +17,7 @@ try {
   const generatedPath = join(temporaryDirectory, 'index.d.ts');
   execFileSync(
     process.execPath,
-    ['node_modules/@biomejs/biome/bin/biome', 'format', '--write', generatedPath],
+    ['node_modules/@biomejs/biome/bin/biome', 'format', '--vcs-enabled=false', '--write', generatedPath],
     { stdio: 'inherit' },
   );
 
